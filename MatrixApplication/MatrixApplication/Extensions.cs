@@ -12,8 +12,8 @@ namespace MatrixApplication
         {
             int an = a.GetLength(0);
             int am = a.GetLength(1);
-            int bn = a.GetLength(0);
-            int bm = a.GetLength(1);
+            int bn = b.GetLength(0);
+            int bm = b.GetLength(1);
 
             bool rvalue = true;
             if (!(an == bn && am == bm))
