@@ -16,6 +16,14 @@ namespace RootsApp
             return r;
         }
 
+        public static IRoot SameSign()
+        {
+            IRoot r = new Root();
+            r.Root = double.NaN;
+            r.Error = (int)Errors.ROOT_ERRORS.SAME_SIGN;
+            return r;
+        }
+
         public static IRoot RunawayError()
         {
             IRoot r = new Root();
