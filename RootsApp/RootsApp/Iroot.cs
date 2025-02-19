@@ -21,6 +21,6 @@ namespace RootsApp
     /// </summary>
     public class Errors
     {
-        public enum ROOT_ERRORS { NONE, DIVISION_BY_ZERO, RUNAWAY, CYCLE };
+        public enum ROOT_ERRORS { NONE, DIVISION_BY_ZERO, RUNAWAY, CYCLE, SAME_SIGN };
     }
 }
