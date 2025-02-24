@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace RootsApp
+﻿namespace RootsApp
 {
     /// <summary>
     /// Interface which you must implement and use as the return values in IRoots
@@ -21,6 +15,10 @@ namespace RootsApp
     /// </summary>
     public class Errors
     {
+<<<<<<< HEAD
+        public enum ROOT_ERRORS { NONE, SAME_SIGN, DIVISION_BY_ZERO, RUNAWAY, CYCLE };
+=======
         public enum ROOT_ERRORS { NONE, DIVISION_BY_ZERO, RUNAWAY, CYCLE, SAME_SIGN };
+>>>>>>> 6d4d72e403905b5e7aff6b30b90c8366378bc2ed
     }
 }

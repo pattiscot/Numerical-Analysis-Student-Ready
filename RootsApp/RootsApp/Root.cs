@@ -1,8 +1,14 @@
+<<<<<<< HEAD
+﻿namespace RootsApp
+{
+    public class Root : IRoot
+=======
 ﻿
 
 namespace RootsApp
 {
     class Root : IRoot
+>>>>>>> 6d4d72e403905b5e7aff6b30b90c8366378bc2ed
     {
         public double root;
         public int error;
