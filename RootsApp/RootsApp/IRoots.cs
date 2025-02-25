@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace RootsApp
 {
     public interface IRoots
@@ -13,7 +14,7 @@ namespace RootsApp
         /// <param name="f">this is the function for which you want to find the root</param>
         /// <param name="epsilon">the accuracy desired</param>
         /// <param name="nmax">the maximum number of iterations you want the computer to attempt</param>
-        Root BisectionMethod(double a, double b, Func<double, double> f, double epsilon, int nmax);
+        RootObj BisectionMethod(double a, double b, Func<double, double> f, double epsilon, int nmax);
 
 
         /// <summary>
@@ -24,6 +25,6 @@ namespace RootsApp
         /// <param name="fPrime">this is the derivative of the function for which you want to find the root</param>
         /// <param name="epsilon">the accuracy desired</param>
         /// <param name="nmax">the maximum number of iterations you want the computer to attempt</param>
-        Root NewtonsMethod(double a, Func<double, double> f, Func<double, double> fPrime, double epsilon, int nmax);
+        RootObj NewtonsMethod(double a, Func<double, double> f, Func<double, double> fPrime, double epsilon, int nmax);
     }
 }
