@@ -21,8 +21,9 @@ namespace DerivativeEstimationApp
         int Iterations { get; set; }
 
         /// <summary>
-        /// This should iteratively approximate the derivative of f. The Derivative object
-        /// includes the approximate derivative, the approximate error of that derivative, 
+        /// This should iteratively approximate the derivative of f using the 
+        /// central difference formula. The Derivative object includes the 
+        /// approximate derivative, the approximate error of that derivative, 
         /// and the number of iterations used for this computation.
         /// </summary>
         /// <param name="x"> the x value that you wish to evaluate the derivative at</param>
